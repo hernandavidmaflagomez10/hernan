@@ -1,13 +1,130 @@
 body {
     background-color: crimson;
-
+}
 .parrafo{
-    color:blue ;
+    color:blue;
     background-color: white;
     }
     #parrrafoUnico {
-        color:black}
-        #
+        color:black;
+    }
+        
+
+    #contenedor1{
+        width:45vw;
+        height: 80vh;
+        border: 1px solid black ;
+        margin: 15px;
+        position: relative;
+    }
+
+    #contenedor2{
+        width: 45vw;
+        height: 80vh;
+        border: 1px solid black ;
+        margin: 15px;
+        display: flex;
+    }
+    .cuadrado{
+        width:25%;
+        height:25%;
+        background-color:rgb(3,154,255);
+        border: 1px solid black ;
+        position: absolute;
+
+    }
+    .cuadrado2{
+        width:25%;
+        height:25%;
+        background-color:rgb(3,154,255);
+        border: 1px solid black ;
+        }
+
+    #cuadro1{
+        top:15%;
+        left:15%;
+        }
+    #cuadro2{
+        top:25%;
+        left:25%;
+       } 
+     #cuadro3{
+        top:50%;
+        left:50%
+    
+     }   
+     /***********************/
+/* Estilo dibujo*/
+#tituloDibujo {
+text-align: center;
+}
+
+#lienzo {
+width: 500px;
+height:400px;
+background-image: url("https://cdn.royalcanin-weshare-online.io/UCImMmgBaxEApS7LuQnZ/v2/eukanuba-market-image-puppy-beagle?w=5596&h=2317&rect=574,77,1850,1045&auto=compress,enhance");
+background-repeat: no-repeat;
+background-size: contain;
+border: 1px solid black;
+margin: 0 auto;
+position: relative;
+}
+
+.circulo {
+    width: 80px; /* ancho */
+    height: 40px; /* alto */
+    background-color: rgb(0, 255, 38); /* color de fondo */
+    border-radius: 50%; /* redondea los bordes de la figura*/
+    border: 3px solid black; /* borde de la figura: grosor, estilo, color */
+    position: absolute; /* ubicar los elementos en una posición fija que definimos a continuación */
+    top: 10px; /* posición desde el borde superior del lienzo */
+    left: 80%; /* posición desde el borde izquierdo del lienzo */
+}
+
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(46, 0, 251);
+    position: absolute;
+    top: 70%;
+    left: 120px;
+}
+ 
+/* línea hecha con border*/
+.lineaHorizontal {
+    width: 100px;
+    height: 0px;
+    border: 3px solid rgb(255, 0, 0); /* borde de la figura: grosor, estilo, color */
+    position: absolute;
+    top: 50px;
+    left: 400px;
+}
+
+/* línea hecha con border*/
+.lineaVertical {
+    width: 0px;
+    height: 70px;
+    border: 3px solid rgb(0, 140, 255); /* borde de la figura: grosor, estilo, color */
+    position: absolute;
+    top: 10px;
+    left: 80px;
+}
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(46, 0, 251);
+    position: absolute;
+    top: 70%;
+    left: 110px;
+    
+        
+
+   
+
+
+
+    }
+
 
 
 
